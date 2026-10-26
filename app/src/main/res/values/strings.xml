@@ -1,0 +1,112 @@
+<resources>
+    <string name="app_name">校园课程表</string>
+    <string name="nav_schedule">课表</string>
+    <string name="nav_classroom">空教室</string>
+    <string name="nav_grade">成绩</string>
+    <string name="nav_profile">我的</string>
+
+    <string name="login_title">校园课表</string>
+    <string name="login_subtitle">欢迎回来，请登录你的账号</string>
+    <string name="login_student_id_hint">学号（10位）</string>
+    <string name="login_password_hint">密码</string>
+    <string name="login_link_register">没有账号？注册</string>
+    <string name="login_link_forgot">忘记密码？</string>
+    <string name="login_btn_login">登录</string>
+    <string name="login_btn_register">注册</string>
+    <string name="register_title">注册账号</string>
+    <string name="register_name_hint">真实姓名</string>
+    <string name="register_student_id_hint">学号（10位数字）</string>
+    <string name="register_password_hint">密码</string>
+    <string name="register_confirm_hint">再次输入密码</string>
+    <string name="register_btn">注册</string>
+    <string name="reset_title">重置密码</string>
+    <string name="reset_subtitle">输入与学号对应的真实姓名，验证通过后可设置新密码</string>
+    <string name="reset_new_password_hint">新密码</string>
+    <string name="reset_btn">重置密码</string>
+    <string name="back_to_login">返回登录</string>
+
+    <string name="add_course_title">课程名称</string>
+    <string name="add_course_teacher">教师</string>
+    <string name="add_course_classroom">教室</string>
+    <string name="add_course_save">保存</string>
+    <string name="add_course">添加课程</string>
+    <string name="conflict_detected">检测到课程时间冲突！</string>
+    <string name="classroom_title">空闲教室查询</string>
+    <string name="classroom_time">时间：%1$s ▾</string>
+    <string name="classroom_capacity">容量：%1$d人</string>
+    <string name="classroom_borrow">借用</string>
+    <string name="classroom_empty">该时段暂无空闲教室</string>
+    <string name="classroom_borrow_toast">已提交借用申请：%1$s</string>
+
+    <string-array name="classroom_sections">
+        <item>节次：01-02节</item>
+        <item>节次：03-04节</item>
+        <item>节次：05-06节</item>
+        <item>节次：07-08节</item>
+        <item>节次：09-10节</item>
+    </string-array>
+
+    <string name="classroom_tab_query">我要查询</string>
+    <string name="classroom_tab_records">借用记录</string>
+    <string name="record_title">申请记录</string>
+    <string name="record_empty">暂无借用申请记录</string>
+    <string name="borrow_apply_title">教室借用</string>
+    <string name="borrow_time_summary">借用时间：%1$s 第%2$d-%3$d节</string>
+    <string name="borrow_phone_label">联系电话</string>
+    <string name="borrow_phone_hint">请输入电话号码</string>
+    <string name="borrow_auditor_label">审核人</string>
+    <string name="borrow_auditor_hint">请点击选择</string>
+    <string name="borrow_auditor_input_hint">请输入审核人</string>
+    <string name="borrow_successor_label">借教人</string>
+    <string name="borrow_successor_hint">请输入借教人</string>
+    <string name="borrow_successor_required">请输入借教人</string>
+    <string name="borrow_remark_label">备注</string>
+    <string name="borrow_remark_hint">请点击填写</string>
+    <string name="borrow_attachment_label">上传附件</string>
+    <string name="borrow_submit">提交申请</string>
+    <string name="borrow_phone_invalid">请输入11位联系电话</string>
+    <string name="borrow_auditor_required">请选择审核人</string>
+    <string name="borrow_upload_demo">演示环境暂不支持上传附件</string>
+    <string name="borrow_submit_success">申请已提交</string>
+    <string name="borrow_status_approved">审核通过</string>
+    <string name="borrow_from_camera">拍照</string>
+    <string name="borrow_from_gallery">从相册选择</string>
+    <string name="borrow_attachment_failed">附件读取失败,请重试</string>
+
+    <string-array name="borrow_auditors">
+        <item>教务处</item>
+        <item>后勤管理处</item>
+        <item>院系办公室</item>
+    </string-array>
+
+    <string name="grade_page_title">学期考试成绩</string>
+    <string name="grade_report">成绩单</string>
+    <string name="grade_student_id_prefix">学号：%1$s</string>
+    <string name="grade_avg_prefix">平均成绩绩点：</string>
+    <string name="grade_col_course">课程</string>
+    <string name="grade_col_code">课程编号</string>
+    <string name="grade_col_credit">学分</string>
+    <string name="grade_col_property">课程属性</string>
+    <string name="grade_col_score">成绩</string>
+    <string name="grade_col_gpa">绩点</string>
+    <string name="grade_add">手动添加</string>
+    <string name="grade_import">导入成绩单</string>
+    <string name="grade_empty">暂无成绩</string>
+    <string name="grade_fields_required">请填写课程名称和成绩</string>
+    <string name="grade_import_confirm">共解析到 %1$d 条成绩，导入后将替换当前成绩</string>
+    <string name="grade_import_ok">导入</string>
+    <string name="grade_import_fail">成绩单导入失败</string>
+    <string name="grade_dlg_course">课程名称</string>
+    <string name="grade_dlg_code">课程编号</string>
+    <string name="grade_dlg_credit">学分</string>
+    <string name="grade_dlg_property">课程属性</string>
+    <string name="grade_dlg_semester">学期</string>
+    <string name="grade_dlg_grade">成绩（如 87 或 优/良/中/及格）</string>
+
+    <string-array name="grade_properties">
+        <item>必修</item>
+        <item>选修</item>
+        <item>公选</item>
+        <item>限选</item>
+    </string-array>
+</resources>

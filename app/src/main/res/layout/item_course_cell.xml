@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:background="@drawable/course_cell_bg"
+    android:elevation="1dp">
+
+    <View android:id="@+id/colorBar"
+        android:layout_width="3dp"
+        android:layout_height="match_parent"
+        android:minWidth="3dp"
+        android:background="@color/course_blue" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:padding="2dp">
+
+        <TextView android:id="@+id/tvName"
+            android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:textSize="10sp" android:textStyle="bold" android:maxLines="3"
+            android:ellipsize="end" android:gravity="center"
+            android:textColor="@color/text_primary" />
+
+        <TextView android:id="@+id/tvRoom"
+            android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:textSize="8sp" android:maxLines="2" android:ellipsize="end"
+            android:gravity="center"
+            android:textColor="@color/text_primary" />
+    </LinearLayout>
+</LinearLayout>

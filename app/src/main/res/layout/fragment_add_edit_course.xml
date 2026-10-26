@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:fitsSystemWindows="true">
+
+    <LinearLayout android:orientation="vertical" android:padding="24dp"
+        android:layout_width="match_parent" android:layout_height="wrap_content">
+
+        <EditText android:id="@+id/etName" android:hint="@string/add_course_title"
+            android:layout_width="match_parent" android:layout_height="wrap_content" android:inputType="text" />
+        <EditText android:id="@+id/etTeacher" android:hint="@string/add_course_teacher"
+            android:layout_width="match_parent" android:layout_height="wrap_content" android:inputType="text" />
+        <EditText android:id="@+id/etClassroom" android:hint="@string/add_course_classroom"
+            android:layout_width="match_parent" android:layout_height="wrap_content" android:inputType="text" />
+
+        <Spinner android:id="@+id/spinnerDay"
+            android:layout_width="match_parent" android:layout_height="wrap_content" />
+
+        <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <EditText android:id="@+id/etStart" android:hint="开始节" android:layout_width="0dp" android:layout_weight="1" android:layout_height="wrap_content" android:inputType="number" />
+            <EditText android:id="@+id/etEnd" android:hint="结束节" android:layout_width="0dp" android:layout_weight="1" android:layout_height="wrap_content" android:inputType="number" />
+        </LinearLayout>
+
+        <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <EditText android:id="@+id/etStartWeek" android:hint="开始周" android:layout_width="0dp" android:layout_weight="1" android:layout_height="wrap_content" android:inputType="number" />
+            <EditText android:id="@+id/etEndWeek" android:hint="结束周" android:layout_width="0dp" android:layout_weight="1" android:layout_height="wrap_content" android:inputType="number" />
+        </LinearLayout>
+
+        <Button android:id="@+id/btnSave" android:text="@string/add_course_save"
+            android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="16dp" />
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,55 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- 日历装订环 -->
+    <path
+        android:pathData="M44,36 L44,27"
+        android:strokeColor="#FFFFFFFF"
+        android:strokeWidth="4"
+        android:strokeLineCap="round" />
+    <path
+        android:pathData="M66,36 L66,27"
+        android:strokeColor="#FFFFFFFF"
+        android:strokeWidth="4"
+        android:strokeLineCap="round" />
+
+    <!-- 课表卡片主体（白色圆角矩形） -->
+    <path
+        android:fillColor="#FFFFFFFF"
+        android:pathData="M36,34 L72,34 Q76,34 76,38 L76,78 Q76,82 72,82 L36,82 Q32,82 32,78 L32,38 Q32,34 36,34 Z" />
+
+    <!-- 卡片表头（红色） -->
+    <path
+        android:fillColor="#FFE53935"
+        android:pathData="M36,34 L72,34 Q76,34 76,38 L76,44 L32,44 L32,38 Q32,34 36,34 Z" />
+
+    <!-- 课表网格线 -->
+    <path
+        android:strokeColor="#FFBDBDBD"
+        android:strokeWidth="0.8"
+        android:pathData="M44,48 L44,79 M56,48 L56,79 M68,48 L68,79" />
+    <path
+        android:strokeColor="#FFBDBDBD"
+        android:strokeWidth="0.8"
+        android:pathData="M34,56 L74,56 M34,64 L74,64 M34,72 L74,72" />
+
+    <!-- 彩色课程块 -->
+    <path
+        android:fillColor="#FF1E88E5"
+        android:pathData="M35,49 L43,49 L43,55 L35,55 Z" />
+    <path
+        android:fillColor="#FF8E24AA"
+        android:pathData="M57,49 L65,49 L65,55 L57,55 Z" />
+    <path
+        android:fillColor="#FF43A047"
+        android:pathData="M45,57 L55,57 L55,63 L45,63 Z" />
+    <path
+        android:fillColor="#FFFB8C00"
+        android:pathData="M57,65 L65,65 L65,71 L57,71 Z" />
+    <path
+        android:fillColor="#FFE53935"
+        android:pathData="M35,73 L43,73 L43,78 L35,78 Z" />
+</vector>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="window_bg">#FF000000</color>
+    <color name="card_bg">#FF1E1E1E</color>
+    <color name="grid_line">#FF333333</color>
+    <color name="text_primary">#FFEEEEEE</color>
+    <color name="text_secondary">#FFAAAAAA</color>
+    <color name="week_num">#FFD0BCFF</color>
+</resources>

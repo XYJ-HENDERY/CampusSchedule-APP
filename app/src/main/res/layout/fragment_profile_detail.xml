@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:fitsSystemWindows="true"
+    android:background="@color/window_bg">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="52dp"
+        android:background="@color/card_bg">
+
+        <TextView
+            android:id="@+id/tvBack"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="start|center_vertical"
+            android:gravity="center_vertical"
+            android:paddingStart="16dp"
+            android:paddingEnd="16dp"
+            android:text="‹  返回"
+            android:textSize="18sp"
+            android:textColor="@color/text_primary"
+            android:background="?attr/selectableItemBackground" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:gravity="center_vertical"
+            android:text="个人信息"
+            android:textSize="19sp"
+            android:textStyle="bold"
+            android:textColor="@color/text_primary" />
+    </FrameLayout>
+
+    <View android:layout_width="match_parent" android:layout_height="1dp" android:background="@color/grid_line" />
+
+    <LinearLayout
+        android:layout_width="match_parent" android:layout_height="64dp"
+        android:orientation="horizontal" android:gravity="center_vertical" android:paddingHorizontal="20dp">
+        <TextView android:layout_width="0dp" android:layout_weight="1" android:layout_height="wrap_content"
+            android:text="头像" android:textSize="16sp" android:textColor="@color/text_primary" />
+        <ImageView android:layout_width="44dp" android:layout_height="44dp" android:padding="6dp"
+            android:background="@drawable/avatar_bg" android:src="@drawable/ic_nav_profile" android:contentDescription="头像" />
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:text="›" android:textSize="24sp" android:alpha="0.4" android:layout_marginStart="8dp"
+            android:textColor="@color/text_primary" />
+    </LinearLayout>
+    <View android:layout_width="match_parent" android:layout_height="1dp" android:background="@color/grid_line" />
+
+    <LinearLayout
+        android:layout_width="match_parent" android:layout_height="64dp"
+        android:orientation="horizontal" android:gravity="center_vertical" android:paddingHorizontal="20dp">
+        <TextView android:layout_width="0dp" android:layout_weight="1" android:layout_height="wrap_content"
+            android:text="姓名" android:textSize="16sp" android:textColor="@color/text_primary" />
+        <TextView android:id="@+id/tvDetailName" android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:text="—" android:textSize="16sp" android:alpha="0.7" android:textColor="@color/text_primary" />
+    </LinearLayout>
+    <View android:layout_width="match_parent" android:layout_height="1dp" android:background="@color/grid_line" />
+
+    <LinearLayout
+        android:layout_width="match_parent" android:layout_height="64dp"
+        android:orientation="horizontal" android:gravity="center_vertical" android:paddingHorizontal="20dp">
+        <TextView android:layout_width="0dp" android:layout_weight="1" android:layout_height="wrap_content"
+            android:text="账号" android:textSize="16sp" android:textColor="@color/text_primary" />
+        <TextView android:id="@+id/tvDetailAccount" android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:text="—" android:textSize="16sp" android:alpha="0.7" android:textColor="@color/text_primary" />
+    </LinearLayout>
+    <View android:layout_width="match_parent" android:layout_height="1dp" android:background="@color/grid_line" />
+
+    <LinearLayout
+        android:layout_width="match_parent" android:layout_height="64dp"
+        android:orientation="horizontal" android:gravity="center_vertical" android:paddingHorizontal="20dp">
+        <TextView android:layout_width="0dp" android:layout_weight="1" android:layout_height="wrap_content"
+            android:text="账号身份" android:textSize="16sp" android:textColor="@color/text_primary" />
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:text="本科生" android:textSize="16sp" android:alpha="0.7" android:textColor="@color/text_primary" />
+    </LinearLayout>
+    <View android:layout_width="match_parent" android:layout_height="1dp" android:background="@color/grid_line" />
+
+    <LinearLayout
+        android:id="@+id/phoneRow"
+        android:layout_width="match_parent" android:layout_height="64dp"
+        android:orientation="horizontal" android:gravity="center_vertical" android:paddingHorizontal="20dp"
+        android:background="?attr/selectableItemBackground"
+        android:clickable="true" android:focusable="true">
+        <TextView android:layout_width="0dp" android:layout_weight="1" android:layout_height="wrap_content"
+            android:text="手机号" android:textSize="16sp" android:textColor="@color/text_primary" />
+        <TextView android:id="@+id/tvDetailPhone" android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:text="未绑定" android:textSize="16sp" android:alpha="0.7" android:textColor="@color/text_primary" />
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:text="›" android:textSize="24sp" android:alpha="0.4" android:layout_marginStart="8dp"
+            android:textColor="@color/text_primary" />
+    </LinearLayout>
+    <View android:layout_width="match_parent" android:layout_height="1dp" android:background="@color/grid_line" />
+
+</LinearLayout>
